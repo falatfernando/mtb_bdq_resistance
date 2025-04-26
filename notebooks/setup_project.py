@@ -9,7 +9,7 @@ def setup_environment():
     - Returns key paths for database and raw data
     """
     # Locate project root
-    project_root = Path(__file__).resolve().parent
+    project_root = Path(__file__).resolve().parent.parent
 
     # Add 'mtb_resistance_db' and 'notebooks' to sys.path
     sys.path.append(str(project_root / "mtb_resistance_db"))
