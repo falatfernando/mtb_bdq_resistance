@@ -18,7 +18,7 @@ def setup_environment():
     # Define useful paths
     paths = {
         "PROJECT_ROOT": project_root,
-        "DB_PATH": project_root / "mtb_resistance_db" / "mtb_resistance.db",
+        "DB_PATH": project_root / "mtb_resistance_db" / "mtb_warehouse.db",
         "RAW_DATA_DIR": project_root / "mtb_resistance_db" / "raw",
     }
 
